@@ -1,0 +1,7 @@
+---
+
+- name: caffe
+  hosts: all
+  become: yes
+  roles:
+    - { role: ansible-role-caffe, type: 'cpu-only' }

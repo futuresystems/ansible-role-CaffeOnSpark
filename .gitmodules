@@ -1,0 +1,4 @@
+[submodule "roles/ansible-role-caffe"]
+	path = roles/ansible-role-caffe
+	url = https://github.com/futuresystems/ansible-role-caffe.git
+	branch = master
